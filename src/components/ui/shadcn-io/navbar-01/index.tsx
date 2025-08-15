@@ -103,7 +103,7 @@ export interface Navbar01Props extends React.HTMLAttributes<HTMLElement> {
 
 // Default navigation links
 const defaultNavigationLinks: Navbar01NavLink[] = [
-  { href: "#", label: "Home", active: true },
+  { href: "#", label: "Home", active: false },
   { href: "/services", label: "Services" },
   { href: "/shop", label: "Shop" },
   { href: "/about", label: "About" },

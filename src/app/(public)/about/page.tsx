@@ -42,49 +42,50 @@ const Page = () => {
   const values = [
     {
       icon: Heart,
-      title: "Quality First",
+      title: "Heartfelt Quality",
       description:
-        "We never compromise on the quality of our products and services.",
+        "We pour passion into every product and service, ensuring freshness that touches your life.",
     },
     {
       icon: Shield,
-      title: "Trust & Reliability",
+      title: "Unwavering Trust",
       description:
-        "Building lasting relationships through consistent, dependable service.",
+        "Rooted in Lekki&apos;s community, we build bonds through reliable, honest care.",
     },
     {
       icon: Users,
-      title: "Customer Focus",
-      description: "Your satisfaction is our priority in everything we do.",
+      title: "You-Centered Approach",
+      description:
+        "Your stories inspire us; your glow and clean spaces drive our every decision.",
     },
     {
       icon: Sparkles,
-      title: "Excellence",
+      title: "Pursuit of Radiance",
       description:
-        "Striving for excellence in every product and service we offer.",
+        "We chase excellence to transform ordinary routines into extraordinary freshness and beauty.",
     },
   ];
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Lekki Resident",
+      name: "Sarah Adebayo",
+      role: "Lekki Phase 1 Resident",
       content:
-        "Classi Kleen's laundry service is a lifesaver! They always deliver on time and my clothes come back perfectly clean.",
+        "Classi Kleen&apos;s laundry revives my wardrobe like magic! Always prompt, always perfect—true Lekki lifesavers.",
       rating: 5,
     },
     {
-      name: "Michael Chen",
-      role: "Regular Customer",
+      name: "Michael Okafor",
+      role: "Frequent Glow-Seeker",
       content:
-        "The skincare products are amazing quality and the WhatsApp ordering is so convenient. Highly recommend!",
+        "Their skincare treasures via WhatsApp? Pure convenience and quality. My skin thanks them daily!",
       rating: 5,
     },
     {
-      name: "Aisha Bello",
-      role: "Home Owner",
+      name: "Aisha Ibrahim",
+      role: "Ikoyi Homeowner",
       content:
-        "Their home cleaning service transformed my apartment. Professional, thorough, and reasonably priced.",
+        "The cleaning team brought new life to my space—professional, eco-conscious, and utterly transformative.",
       rating: 5,
     },
   ];
@@ -102,21 +103,23 @@ const Page = () => {
 
   return (
     <>
+      <style jsx global>{`
+        body {
+          font-family: "Playfair Display", serif;
+        }
+        h1,
+        h2,
+        h3 {
+          font-family: "Playfair Display", serif;
+        }
+        .wave-bg {
+          background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%2300BFA5' fill-opacity='0.1' d='M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,176C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E")
+              repeat-x bottom / cover,
+            linear-gradient(180deg, #f0fdfa 0%, #e0f7fa 100%);
+        }
+      `}</style>
       <Navbar01 />
-      <div className="min-h-screen w-full relative overflow-hidden">
-        <div
-          className="absolute inset-0 -z-10"
-          style={{
-            background: `
-              radial-gradient(ellipse 85% 65% at 8% 8%, rgba(175, 109, 255, 0.42), transparent 60%),
-              radial-gradient(ellipse 75% 60% at 75% 35%, rgba(255, 235, 170, 0.55), transparent 62%),
-              radial-gradient(ellipse 70% 60% at 15% 80%, rgba(255, 100, 180, 0.40), transparent 62%),
-              radial-gradient(ellipse 70% 60% at 92% 92%, rgba(120, 190, 255, 0.45), transparent 62%),
-              linear-gradient(180deg, #f7eaff 0%, #fde2ea 100%)
-            `,
-          }}
-        />
-
+      <div className="min-h-screen w-full relative overflow-hidden wave-bg">
         <motion.div
           variants={staggerContainer}
           initial="initial"
@@ -124,16 +127,19 @@ const Page = () => {
           className="container mx-auto px-4 py-16"
         >
           <motion.div variants={fadeInUpStagger} className="text-center mb-16">
-            <Badge variant="secondary" className="mb-4">
+            <Badge
+              variant="secondary"
+              className="mb-4 bg-teal-100 text-teal-700"
+            >
               <Award className="w-4 h-4 mr-2" />
-              Since 2020
+              Est. 2020
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
-              About Classi Kleen
+            <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-teal-600 to-gold-600 bg-clip-text text-transparent mb-6">
+              Discover Classi Kleen
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From fresh laundry to flawless skin, we&apos;re your trusted
-              partner for premium products and exceptional services in Lagos.
+              Rooted in Lekki&apos;s spirit, we blend fresh home care with
+              radiant beauty—delivering transformation to Lagos lives.
             </p>
           </motion.div>
 
@@ -143,43 +149,41 @@ const Page = () => {
           >
             <div>
               <h2 className="text-3xl font-bold mb-6 text-gray-800">
-                Our Story
+                Our Lekki Journey
               </h2>
               <p className="text-gray-600 mb-4">
-                Classi Kleen was born from a simple vision: to provide premium
-                quality products and services that make life easier and more
-                beautiful for our customers in Lagos.
+                Classi Kleen sprouted from a Lekki entrepreneur&apos;s dream: to
+                infuse everyday Lagos life with effortless cleanliness and glow.
               </p>
               <p className="text-gray-600 mb-4">
-                What started as a small laundry service in Lekki has grown into
-                a comprehensive lifestyle brand, offering everything from
-                professional cleaning services to premium skincare and beauty
-                products.
+                Beginning as a neighborhood laundry pickup, we&apos;ve blossomed
+                into a holistic haven—merging eco-friendly home services with
+                curated beauty essentials.
               </p>
               <p className="text-gray-600">
-                Today, we serve thousands of satisfied customers across Lagos,
-                maintaining the same commitment to quality, reliability, and
-                exceptional customer service that we started with.
+                Now nurturing thousands across Lagos, we honor our roots with
+                unwavering quality, community warmth, and innovative WhatsApp
+                simplicity.
               </p>
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-br from-purple-400 to-pink-400 rounded-2xl p-8 text-white">
+              <div className="bg-gradient-to-br from-teal-400 to-gold-400 rounded-2xl p-8 text-white">
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
                     <div className="text-3xl font-bold">200+</div>
-                    <div className="text-sm opacity-90">Products</div>
+                    <div className="text-sm opacity-90">Curated Items</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold">1000+</div>
-                    <div className="text-sm opacity-90">Happy Customers</div>
+                    <div className="text-sm opacity-90">Transformed Lives</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold">3</div>
-                    <div className="text-sm opacity-90">Services</div>
+                    <div className="text-sm opacity-90">Core Services</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold">4+</div>
-                    <div className="text-sm opacity-90">Years</div>
+                    <div className="text-3xl font-bold">5+</div>
+                    <div className="text-sm opacity-90">Years of Freshness</div>
                   </div>
                 </div>
               </div>
@@ -188,7 +192,7 @@ const Page = () => {
 
           <motion.div variants={fadeInUpStagger} className="mb-20">
             <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Our Mission & Values
+              Our Guiding Light & Principles
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {values.map((value, index) => (
@@ -197,7 +201,7 @@ const Page = () => {
                   className="text-center border-0 shadow-lg bg-white/80 backdrop-blur-sm"
                 >
                   <CardHeader>
-                    <div className="mx-auto w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mb-4">
+                    <div className="mx-auto w-12 h-12 bg-gradient-to-br from-teal-500 to-gold-500 rounded-full flex items-center justify-center mb-4">
                       <value.icon className="w-6 h-6 text-white" />
                     </div>
                     <CardTitle className="text-lg">{value.title}</CardTitle>
@@ -214,20 +218,20 @@ const Page = () => {
 
           <motion.div variants={fadeInUpStagger} className="mb-20">
             <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Service Areas
+              Where We Bring the Glow
             </h2>
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
               <div className="text-center mb-8">
-                <MapPin className="w-8 h-8 mx-auto mb-4 text-purple-600" />
+                <MapPin className="w-8 h-8 mx-auto mb-4 text-teal-600" />
                 <p className="text-gray-600">
-                  We proudly serve these areas in Lagos
+                  Spreading freshness across Lagos neighborhoods
                 </p>
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {serviceAreas.map((area, index) => (
                   <div
                     key={index}
-                    className="flex items-center space-x-2 p-3 bg-purple-50 rounded-lg"
+                    className="flex items-center space-x-2 p-3 bg-teal-50 rounded-lg"
                   >
                     <CheckCircle className="w-4 h-4 text-green-500" />
                     <span className="text-gray-700">{area}</span>
@@ -239,7 +243,7 @@ const Page = () => {
 
           <motion.div variants={fadeInUpStagger} className="mb-20">
             <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              What Our Customers Say
+              Voices from Our Community
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               {testimonials.map((testimonial, index) => (
@@ -274,31 +278,31 @@ const Page = () => {
           </motion.div>
 
           <motion.div variants={fadeInUpStagger} className="text-center">
-            <Card className="border-0 shadow-lg bg-gradient-to-r from-purple-600 to-pink-600 text-white">
+            <Card className="border-0 shadow-lg bg-gradient-to-r from-teal-600 to-gold-600 text-white">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4">
-                  Ready to Experience Classi Kleen?
+                  Ready to Join the Fresh Revolution?
                 </h3>
                 <p className="mb-6 opacity-90">
-                  Join thousands of satisfied customers who trust us for their
-                  beauty and lifestyle needs.
+                  Become part of our growing Lekki family—experience the Classi
+                  Kleen difference today.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button
                     size="lg"
                     variant="secondary"
-                    className="bg-white text-purple-600 hover:bg-gray-100"
+                    className="bg-white text-teal-600 hover:bg-gray-100"
                   >
                     <ShoppingCart className="w-4 h-4 mr-2" />
-                    Shop Products
+                    Explore Products
                   </Button>
                   <Button
                     size="lg"
                     variant="outline"
-                    className="border-white text-white hover:bg-white hover:text-purple-600"
+                    className="border-white text-white hover:bg-white hover:text-teal-600"
                   >
                     <MessageCircle className="w-4 h-4 mr-2" />
-                    Book Services
+                    Schedule Service
                   </Button>
                 </div>
               </CardContent>
