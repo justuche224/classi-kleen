@@ -1,1145 +1,772 @@
-💄 FACE CARE (50 Products)
+# Classi Kleen - E-commerce & Services Website Project
 
-1. CeraVe Foaming Cleanser
+## 📋 Project Overview
 
+Classi Kleen is a multi-service business offering cosmetics/health products and home services. The website will serve as both an online store and service booking platform with WhatsApp integration for sales conversion.
 
-2. Neutrogena Hydro Boost Cleanser
+## 🎯 Core Business Model
 
-
-3. Simple Face Wash
-
-
-4. Garnier Micellar Water
-
-
-5. Nivea Perfect & Radiant Cleanser
-
-
-6. La Roche-Posay Cleanser
-
-
-7. Cetaphil Gentle Skin Cleanser
-
-
-8. Rosewater Toner
-
-
-9. Witch Hazel Toner
-
-
-10. The Ordinary Niacinamide Serum
-
-
-11. Vitamin C Serum (e.g. TruSkin)
-
-
-12. Hyaluronic Acid Serum
-
-
-13. Retinol Serum
-
-
-14. Tea Tree Oil
-
-
-15. Neutrogena Oil-Free Moisturizer
-
-
-16. CeraVe Daily Moisturizer
-
-
-17. Simple Hydrating Light Moisturizer
-
-
-18. The Ordinary AHA/BHA Peeling Solution
-
-
-19. Aztec Indian Healing Clay Mask
-
-
-20. L’Oréal Pure Clay Mask
-
-
-21. Black Soap (Dudu Osun)
-
-
-22. Shea Butter Face Cream
-
-
-23. Tea Tree Face Cream
-
-
-24. Face Sheet Masks (assorted brands)
-
-
-25. Salicylic Acid Spot Treatment
-
-
-26. Benzoyl Peroxide Acne Gel
-
-
-27. Vitamin E Oil
-
-
-28. Bio-Oil for face
-
-
-29. Dr. Rashel Gold Collagen Gel
-
-
-30. Aloe Vera Gel
-
-
-31. Cucumber Eye Gel
-
-
-32. Under Eye Patch Mask
-
-
-33. Facial Scrub (St. Ives Apricot Scrub)
-
-
-34. Charcoal Face Scrub
-
-
-35. Turmeric Face Mask
-
-
-36. Ponds Vanishing Cream
-
-
-37. Caro White Face Cream
-
-
-38. Fair & White So White Cream
-
-
-39. Kojic Acid Face Soap
-
-
-40. Tumeric Black Soap
-
-
-41. Olay Total Effects
-
-
-42. Skin By Zaron Glow Kit
-
-
-43. Acne Patch (COSRX)
-
-
-44. Face Steaming Machine
-
-
-45. Facial Roller
-
-
-46. Jade Roller
-
-
-47. Gua Sha Stone
-
-
-48. Nose Strip (blackhead remover)
-
-
-49. Face Towel Set
-
-
-50. Makeup Remover Wipes
-
-
-
+- **E-commerce**: Cosmetics & Health Products (200+ items)
+- **Services**: Laundry pickup, home cleaning, barbing
+- **Sales Channel**: WhatsApp checkout (no online payments)
+- **Communication**: Email for feedback, WhatsApp for sales
 
 ---
 
-🧴 BODY CARE (50 Products)
-
-1. Palmer’s Cocoa Butter
-
-
-2. Nivea Even & Radiant Lotion
-
-
-3. Dove Body Lotion
-
-
-4. QEI+ Lotion
-
-
-5. Caro White Lotion
-
-
-6. Bio-Oil
-
-
-7. Vaseline Intensive Care
-
-
-8. Pears Baby Oil
-
-
-9. Johnson’s Baby Lotion
-
-
-10. Cantu Body Lotion
-
-
-11. Argan Oil
-
-
-12. Coconut Oil
-
-
-13. Tea Tree Body Wash
-
-
-14. Dove Body Wash
-
-
-15. Nivea Shower Gel
-
-
-16. African Black Soap
-
-
-17. Kojie San Body Soap
-
-
-18. Exfoliating Gloves
-
-
-19. Sugar Body Scrub
-
-
-20. Salt Scrub
-
-
-21. Turmeric Body Scrub
-
-
-22. Shea Butter
-
-
-23. Glow Oil
-
-
-24. Stretch Mark Cream
-
-
-25. Cellulite Oil
-
-
-26. Yoni Oil
-
-
-27. Feminine Hygiene Wash
-
-
-28. Vagisil
-
-
-29. Intimate Wash (Tea Tree or Aloe)
-
-
-30. Hand Cream (Neutrogena, Nivea)
-
-
-31. Foot Scrub
-
-
-32. Foot Cream
-
-
-33. Body Polish
-
-
-34. Arami Essentials Body Oil
-
-
-35. Ajali Body Butter
-
-
-36. Carrot Glow Lotion
-
-
-37. Tura Soap
-
-
-38. Exfoliating Brush
-
-
-39. Loofah Sponge
-
-
-40. Bath Salts
-
-
-41. Baby Face Exfoliant
-
-
-42. Glow Bar
-
-
-43. Dove Roll-On
-
-
-44. Nivea Roll-On
-
-
-45. Tawas Crystal Deodorant
-
-
-46. Shower Sponge
-
-
-47. Body Mist (Bath & Body Works)
-
-
-48. Body Oil Spray
-
-
-49. Skin Repair Cream
-
-
-50. Body Toner Cream
-
-
-
+## 🏗️ Technical Architecture
+
+### Tech Stack
+
+- **Frontend**: Next.js with TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **Database**: Neon Postgres (no transactions)
+- **Authentication**: Better auth
+- **Deployment**: Vercel
+- **WhatsApp Integration**: Direct link with cart details
+- **Email**: Form submissions to business email
+
+### Key Features
+
+- ✅ Product catalog with images, descriptions, prices
+- ✅ Shopping cart with WhatsApp checkout
+- ✅ Service booking forms
+- ✅ Contact/feedback forms
+- ✅ Admin dashboard for price updates
+- ✅ Mobile-responsive design
 
 ---
 
-💇‍♀ HAIR CARE (50 Products)
-
-1. SheaMoisture Shampoo
-
-
-2. SheaMoisture Conditioner
-
-
-3. Cantu Leave-In Conditioner
-
-
-4. TRESemmé Shampoo
-
-
-5. TRESemmé Conditioner
-
-
-6. ORS Relaxer
-
-
-7. Dark & Lovely Relaxer
-
-
-8. Eco Styler Gel
-
-
-9. Edge Control Gel (Style Factor)
-
-
-10. Moco de Gorilla Gel
-
-
-11. Jamaican Black Castor Oil
-
-
-12. Coconut Hair Oil
-
-
-13. Argan Hair Oil
-
-
-14. Tea Tree Scalp Oil
-
-
-15. Anti-Dandruff Shampoo
-
-
-16. VO5 Conditioner
-
-
-17. Leave-in Detangler
-
-
-18. Hair Serum
-
-
-19. Hair Sheen Spray
-
-
-20. Hot Oil Treatment
-
-
-21. Hair Butter
-
-
-22. Hair Mayonnaise
-
-
-23. Protein Treatment
-
-
-24. Hair Growth Serum
-
-
-25. Henna Powder
-
-
-26. Hair Dye (Creme of Nature, Dark & Lovely)
-
-
-27. Hair Styling Mousse
-
-
-28. Wig Glue
-
-
-29. Lace Tint Spray
-
-
-30. Hair Setting Spray
-
-
-31. Edge Brush
-
-
-32. Hair Bonnet
-
-
-33. Satin Scarf
-
-
-34. Satin Pillowcase
-
-
-35. Curl Activator
-
-
-36. Curl Cream (Aunt Jackie’s)
-
-
-37. Kids Hair Cream
-
-
-38. Beard Oil
-
-
-39. Beard Balm
-
-
-40. Beard Brush
-
-
-41. Weaves & Extensions (Bone Straight, Curls)
-
-
-42. Wig Cap
-
-
-43. Wig Stand
-
-
-44. Detangling Comb
-
-
-45. Straightener
-
-
-46. Curling Iron
-
-
-47. Hair Dryer
-
-
-48. Braiding Hair
-
-
-49. Hair Clip-ins
-
-
-50. Hair Accessories (Pins, Bands, Clips)
-
-
-
+## 📦 Product Categories & Inventory
+
+### 💄 Face Care (50 Products)
+
+**Priority: High** - Core revenue driver
+
+#### Cleansers & Toners
+
+- [ ] CeraVe Foaming Cleanser
+- [ ] Neutrogena Hydro Boost Cleanser
+- [ ] Simple Face Wash
+- [ ] Garnier Micellar Water
+- [ ] Nivea Perfect & Radiant Cleanser
+- [ ] La Roche-Posay Cleanser
+- [ ] Cetaphil Gentle Skin Cleanser
+- [ ] Rosewater Toner
+- [ ] Witch Hazel Toner
+
+#### Serums & Treatments
+
+- [ ] The Ordinary Niacinamide Serum
+- [ ] Vitamin C Serum (TruSkin)
+- [ ] Hyaluronic Acid Serum
+- [ ] Retinol Serum
+- [ ] Tea Tree Oil
+- [ ] Salicylic Acid Spot Treatment
+- [ ] Benzoyl Peroxide Acne Gel
+- [ ] Vitamin E Oil
+- [ ] Bio-Oil for face
+
+#### Moisturizers & Creams
+
+- [ ] Neutrogena Oil-Free Moisturizer
+- [ ] CeraVe Daily Moisturizer
+- [ ] Simple Hydrating Light Moisturizer
+- [ ] Shea Butter Face Cream
+- [ ] Tea Tree Face Cream
+- [ ] Ponds Vanishing Cream
+- [ ] Caro White Face Cream
+- [ ] Fair & White So White Cream
+- [ ] Olay Total Effects
+
+#### Masks & Treatments
+
+- [ ] The Ordinary AHA/BHA Peeling Solution
+- [ ] Aztec Indian Healing Clay Mask
+- [ ] L'Oréal Pure Clay Mask
+- [ ] Face Sheet Masks (assorted)
+- [ ] Dr. Rashel Gold Collagen Gel
+- [ ] Aloe Vera Gel
+- [ ] Cucumber Eye Gel
+- [ ] Under Eye Patch Mask
+- [ ] Turmeric Face Mask
+
+#### Tools & Accessories
+
+- [ ] Face Steaming Machine
+- [ ] Facial Roller
+- [ ] Jade Roller
+- [ ] Gua Sha Stone
+- [ ] Nose Strip (blackhead remover)
+- [ ] Face Towel Set
+- [ ] Makeup Remover Wipes
+
+#### Scrubs & Exfoliants
+
+- [ ] Facial Scrub (St. Ives Apricot)
+- [ ] Charcoal Face Scrub
+- [ ] Black Soap (Dudu Osun)
+- [ ] Kojic Acid Face Soap
+- [ ] Tumeric Black Soap
+
+#### Specialized Products
+
+- [ ] Skin By Zaron Glow Kit
+- [ ] Acne Patch (COSRX)
+
+### 🧴 Body Care (50 Products)
+
+**Priority: High** - High demand category
+
+#### Lotions & Moisturizers
+
+- [ ] Palmer's Cocoa Butter
+- [ ] Nivea Even & Radiant Lotion
+- [ ] Dove Body Lotion
+- [ ] QEI+ Lotion
+- [ ] Caro White Lotion
+- [ ] Bio-Oil
+- [ ] Vaseline Intensive Care
+- [ ] Johnson's Baby Lotion
+- [ ] Cantu Body Lotion
+
+#### Oils & Butters
+
+- [ ] Argan Oil
+- [ ] Coconut Oil
+- [ ] Shea Butter
+- [ ] Glow Oil
+- [ ] Arami Essentials Body Oil
+- [ ] Ajali Body Butter
+- [ ] Carrot Glow Lotion
+- [ ] Body Oil Spray
+
+#### Body Wash & Soaps
+
+- [ ] Tea Tree Body Wash
+- [ ] Dove Body Wash
+- [ ] Nivea Shower Gel
+- [ ] African Black Soap
+- [ ] Kojie San Body Soap
+- [ ] Tura Soap
+
+#### Scrubs & Exfoliants
+
+- [ ] Exfoliating Gloves
+- [ ] Sugar Body Scrub
+- [ ] Salt Scrub
+- [ ] Turmeric Body Scrub
+- [ ] Body Polish
+- [ ] Baby Face Exfoliant
+- [ ] Glow Bar
+- [ ] Exfoliating Brush
+- [ ] Shower Sponge
+
+#### Specialized Care
+
+- [ ] Stretch Mark Cream
+- [ ] Cellulite Oil
+- [ ] Yoni Oil
+- [ ] Feminine Hygiene Wash
+- [ ] Vagisil
+- [ ] Intimate Wash (Tea Tree/Aloe)
+- [ ] Hand Cream (Neutrogena, Nivea)
+- [ ] Foot Scrub
+- [ ] Foot Cream
+- [ ] Skin Repair Cream
+- [ ] Body Toner Cream
+
+#### Bath & Hygiene
+
+- [ ] Bath Salts
+- [ ] Loofah Sponge
+- [ ] Dove Roll-On
+- [ ] Nivea Roll-On
+- [ ] Tawas Crystal Deodorant
+- [ ] Body Mist (Bath & Body Works)
+
+### 💇‍♀ Hair Care (50 Products)
+
+**Priority: High** - Diverse customer base
+
+#### Shampoo & Conditioner
+
+- [ ] SheaMoisture Shampoo
+- [ ] SheaMoisture Conditioner
+- [ ] TRESemmé Shampoo
+- [ ] TRESemmé Conditioner
+- [ ] Anti-Dandruff Shampoo
+- [ ] VO5 Conditioner
+
+#### Hair Oils & Treatments
+
+- [ ] Jamaican Black Castor Oil
+- [ ] Coconut Hair Oil
+- [ ] Argan Hair Oil
+- [ ] Tea Tree Scalp Oil
+- [ ] Hair Serum
+- [ ] Hot Oil Treatment
+- [ ] Hair Butter
+- [ ] Hair Mayonnaise
+- [ ] Protein Treatment
+- [ ] Hair Growth Serum
+
+#### Styling Products
+
+- [ ] Eco Styler Gel
+- [ ] Edge Control Gel (Style Factor)
+- [ ] Moco de Gorilla Gel
+- [ ] Hair Sheen Spray
+- [ ] Hair Styling Mousse
+- [ ] Curl Activator
+- [ ] Curl Cream (Aunt Jackie's)
+- [ ] Hair Setting Spray
+
+#### Hair Color & Dye
+
+- [ ] Henna Powder
+- [ ] Hair Dye (Creme of Nature, Dark & Lovely)
+- [ ] Lace Tint Spray
+
+#### Tools & Accessories
+
+- [ ] Edge Brush
+- [ ] Hair Bonnet
+- [ ] Satin Scarf
+- [ ] Satin Pillowcase
+- [ ] Detangling Comb
+- [ ] Straightener
+- [ ] Curling Iron
+- [ ] Hair Dryer
+- [ ] Wig Cap
+- [ ] Wig Stand
+- [ ] Hair Clip-ins
+- [ ] Hair Accessories (Pins, Bands, Clips)
+
+#### Extensions & Wigs
+
+- [ ] Weaves & Extensions (Bone Straight, Curls)
+- [ ] Wig Glue
+
+#### Specialized Products
+
+- [ ] Leave-in Detangler
+- [ ] Kids Hair Cream
+- [ ] Beard Oil
+- [ ] Beard Balm
+- [ ] Beard Brush
+
+### 💋 Makeup (50 Products)
+
+**Priority: Medium** - Competitive market
+
+#### Foundation & Base
+
+- [ ] Fenty Beauty Foundation
+- [ ] Nuban Beauty Foundation
+- [ ] Maybelline Fit Me Foundation
+- [ ] LA Girl Pro Concealer
+- [ ] Zaron Concealer
+- [ ] MAC Powder
+- [ ] Sacha Buttercup Powder
+- [ ] BB Cream
+- [ ] CC Cream
+- [ ] Under Eye Concealer
+
+#### Eyes & Brows
+
+- [ ] Hegai & Esther Brow Gel
+- [ ] Davis Eyebrow Pencil
+- [ ] Zikel Eyeshadow Palette
+- [ ] Huda Beauty Eyeshadow
+- [ ] NYX Jumbo Eye Pencil
+- [ ] Eyeliner (Gel, Pencil, Liquid)
+- [ ] Mascara (Maybelline Colossal, Zaron)
+- [ ] False Eyelashes
+- [ ] Lash Glue (DUO, Zaron)
+- [ ] Eyelash Curler
+
+#### Lips
+
+- [ ] Kylie Lip Kit
+- [ ] Zaron Lip Gloss
+- [ ] MAC Lipstick
+- [ ] Maybelline Superstay Lipstick
+- [ ] Lip Liner
+- [ ] Lip Stain
+- [ ] Nude Lipstick
+- [ ] Glossy Lip Balm
+
+#### Cheeks & Contour
+
+- [ ] Milani Blush
+- [ ] Tara Highlighter
+- [ ] Anastasia Contour Kit
+- [ ] Contour Palette (Classic)
+
+#### Tools & Accessories
+
+- [ ] Beauty Blender
+- [ ] Foundation Brush
+- [ ] Eyeshadow Brushes
+- [ ] Fan Brush
+- [ ] Compact Mirror
+- [ ] Makeup Bag
+- [ ] Makeup Setting Powder
+- [ ] Glitter Palette
+- [ ] Face Paint/Creative Makeup Kit
+
+#### Specialized Products
+
+- [ ] Elf Primer
+- [ ] Zaron Primer
+- [ ] Urban Decay Setting Spray
+- [ ] Black Up Cosmetics
+- [ ] Makeup Remover
+- [ ] Micellar Water
+- [ ] Makeup Wipes
+- [ ] Makeup Fixing Spray
+- [ ] Oil-Control Blotting Paper
+
+### 🌸 Perfumes & Fragrances (50 Products)
+
+**Priority: Medium** - Premium category
+
+#### Designer Fragrances
+
+- [ ] YSL Black Opium
+- [ ] Dior Sauvage
+- [ ] Chanel Coco Mademoiselle
+- [ ] Paco Rabanne 1 Million
+- [ ] Versace Eros
+- [ ] Gucci Bloom
+- [ ] Gucci Guilty
+- [ ] Creed Aventus
+- [ ] Tom Ford Black Orchid
+- [ ] Carolina Herrera Good Girl
+
+#### Luxury & Niche
+
+- [ ] Maison Francis Kurkdjian (Baccarat Rouge 540)
+- [ ] Jean Paul Gaultier Scandal
+- [ ] Armani Si
+- [ ] Dolce & Gabbana The One
+- [ ] Lancome La Vie Est Belle
+- [ ] Mugler Alien
+- [ ] Burberry Her
+- [ ] Mont Blanc Explorer
+- [ ] Versace Dylan Blue
+- [ ] Dior Miss Dior
+
+#### Popular Brands
+
+- [ ] Givenchy L'Interdit
+- [ ] Davidoff Cool Water
+- [ ] Jo Malone Peony & Blush Suede
+- [ ] Victoria's Secret Bombshell
+- [ ] YSL Libre
+- [ ] Initio Oud for Greatness
+- [ ] Bvlgari Omnia
+- [ ] Chanel Chance
+- [ ] Hugo Boss Bottled
+- [ ] CK One
+
+#### Middle Eastern & Arabian
+
+- [ ] Lattafa Fakhar
+- [ ] Lattafa Raghba
+- [ ] Lattafa Oud Mood
+- [ ] Lattafa Asad
+- [ ] Maison Alhambra Barakkat
+- [ ] Ajmal Perfume
+- [ ] Arabian Oud Kalemat
+- [ ] Armaf Club de Nuit Intense
+- [ ] Armaf Milestone
+- [ ] Armaf Le Parfait
+
+#### Affordable & Alternative
+
+- [ ] Bath & Body Works Mist (A Thousand Wishes)
+- [ ] Zara Femme
+- [ ] Zara Red Vanilla
+- [ ] Zara Rich Warm Addictive
+- [ ] Rave Now Intense
+- [ ] Fragrance World Aventos
+- [ ] Smart Collection Perfume Oils
+- [ ] Oil Perfumes (non-alcoholic)
+- [ ] Elizabeth Arden 5th Avenue
+- [ ] Escada Especially Escada
 
 ---
 
-💋 MAKEUP (50 Products)
+## 🏠 Services Offered
 
-1. Fenty Beauty Foundation
+### 🧺 Laundry Pickup Service (Lekki Area)
 
+**Priority: High** - Core service
 
-2. Nuban Beauty Foundation
+#### Features
 
+- [ ] Pickup scheduling form
+- [ ] Service type selection (Regular/Urgent)
+- [ ] Item count tracking
+- [ ] Special instructions field
+- [ ] WhatsApp confirmation
 
-3. Maybelline Fit Me Foundation
+#### Booking Form Fields
 
+- [ ] Customer name
+- [ ] Phone number
+- [ ] Pickup address
+- [ ] Preferred pickup date/time
+- [ ] Service type (Regular/Urgent)
+- [ ] Number of items
+- [ ] Special instructions
 
-4. LA Girl Pro Concealer
+### 🧹 Home/Apartment Cleaning
 
+**Priority: Medium** - Growing demand
 
-5. Zaron Concealer
+#### Features
 
+- [ ] Service area selection
+- [ ] Space size estimation
+- [ ] Cleaning type options
+- [ ] Scheduling system
 
-6. MAC Powder
+#### Booking Form Fields
 
+- [ ] Customer name
+- [ ] Phone number
+- [ ] Service address
+- [ ] Space size (Studio/1BR/2BR/3BR+)
+- [ ] Preferred date/time
+- [ ] Cleaning type (Regular/Deep/Post-move)
+- [ ] Special requirements
 
-7. Sacha Buttercup Powder
+### 💇‍♂ Home Barbing Services
 
+**Priority: Medium** - Convenience service
 
-8. Hegai & Esther Brow Gel
+#### Features
 
+- [ ] Number of people booking
+- [ ] Service type selection
+- [ ] Mobile service confirmation
 
-9. Davis Eyebrow Pencil
+#### Booking Form Fields
 
-
-10. Zikel Eyeshadow Palette
-
-
-11. Huda Beauty Eyeshadow
-
-
-12. NYX Jumbo Eye Pencil
-
-
-13. Kylie Lip Kit
-
-
-14. Zaron Lip Gloss
-
-
-15. MAC Lipstick
-
-
-16. Maybelline Superstay Lipstick
-
-
-17. Elf Primer
-
-
-18. Zaron Primer
-
-
-19. Urban Decay Setting Spray
-
-
-20. Milani Blush
-
-
-21. Tara Highlighter
-
-
-22. Anastasia Contour Kit
-
-
-23. Contour Palette (Classic)
-
-
-24. Black Up Cosmetics
-
-
-25. Beauty Blender
-
-
-26. Foundation Brush
-
-
-27. Eyeshadow Brushes
-
-
-28. Fan Brush
-
-
-29. Eyeliner (Gel, Pencil, Liquid)
-
-
-30. Mascara (Maybelline Colossal, Zaron)
-
-
-31. False Eyelashes
-
-
-32. Lash Glue (DUO, Zaron)
-
-
-33. Compact Mirror
-
-
-34. Makeup Bag
-
-
-35. Makeup Remover
-
-
-36. Micellar Water
-
-
-37. Makeup Wipes
-
-
-38. Eyelash Curler
-
-
-39. Lip Liner
-
-
-40. Lip Stain
-
-
-41. Nude Lipstick
-
-
-42. Glossy Lip Balm
-
-
-43. Makeup Setting Powder
-
-
-44. BB Cream
-
-
-45. CC Cream
-
-
-46. Under Eye Concealer
-
-
-47. Makeup Fixing Spray
-
-
-48. Oil-Control Blotting Paper
-
-
-49. Glitter Palette
-
-
-50. Face Paint/Creative Makeup Kit
-
-
-
+- [ ] Customer name
+- [ ] Phone number
+- [ ] Service address
+- [ ] Number of people
+- [ ] Preferred date/time
+- [ ] Service type (Haircut/Beard trim/Full service)
 
 ---
 
-🌸 PERFUMES & FRAGRANCES (50 Products)
+## 🎨 Website Structure & Pages
 
-1. YSL Black Opium
+### 📱 Home Page
 
+**Priority: Critical** - First impression
 
-2. Dior Sauvage
+#### Sections
 
+- [ ] Hero banner with main value proposition
+- [ ] Featured products carousel
+- [ ] Service highlights
+- [ ] Why choose us section
+- [ ] Customer testimonials
+- [ ] WhatsApp floating button
+- [ ] Quick shop categories
 
-3. Chanel Coco Mademoiselle
+#### Content
 
+- [ ] "From Fresh Laundry to Flawless Skin — Classi Kleen Delivers"
+- [ ] High-quality product images
+- [ ] Service booking CTAs
+- [ ] Trust indicators
 
-4. Paco Rabanne 1 Million
+### 🛍️ Shop Page
 
+**Priority: Critical** - Revenue driver
 
-5. Versace Eros
+#### Features
 
+- [ ] Product grid layout
+- [ ] Category filters
+- [ ] Search functionality
+- [ ] Shopping cart
+- [ ] WhatsApp checkout integration
+- [ ] Product details modal
 
-6. Gucci Bloom
+#### Product Display
 
+- [ ] Product image
+- [ ] Product name
+- [ ] Description
+- [ ] Price
+- [ ] Add to cart button
+- [ ] Stock status
 
-7. Gucci Guilty
+### 📋 Services Page
 
+**Priority: High** - Service bookings
 
-8. Creed Aventus
+#### Sections
 
+- [ ] Laundry pickup service
+- [ ] Home cleaning service
+- [ ] Barbing service
+- [ ] Service comparison table
+- [ ] Booking forms
+- [ ] Service areas covered
 
-9. Tom Ford Black Orchid
+### 📞 Contact Page
 
+**Priority: Medium** - Customer support
 
-10. Carolina Herrera Good Girl
+#### Features
 
+- [ ] Contact form
+- [ ] WhatsApp direct link
+- [ ] Business hours
+- [ ] Service areas
+- [ ] FAQ section
 
-11. Maison Francis Kurkdjian (Baccarat Rouge 540)
+### ℹ️ About Page
 
+**Priority: Low** - Brand building
 
-12. Jean Paul Gaultier Scandal
+#### Content
 
-
-13. Armani Si
-
-
-14. Dolce & Gabbana The One
-
-
-15. Lancome La Vie Est Belle
-
-
-16. Mugler Alien
-
-
-17. Burberry Her
-
-
-18. Mont Blanc Explorer
-
-
-19. Versace Dylan Blue
-
-
-20. Dior Miss Dior
-
-
-21. Givenchy L’Interdit
-
-
-22. Davidoff Cool Water
-
-
-23. Jo Malone Peony & Blush Suede
-
-
-24. Victoria’s Secret Bombshell
-
-
-25. Bath & Body Works Mist (A Thousand Wishes)
-
-
-26. Zara Femme
-
-
-27. Zara Red Vanilla
-
-
-28. Zara Rich Warm Addictive
-
-
-29. Lattafa Fakhar
-
-
-30. Lattafa Raghba
-
-
-31. Lattafa Oud Mood
-
-
-32. Lattafa Asad
-
-
-33. Maison Alhambra Barakkat
-
-
-34. Ajmal Perfume
-
-
-35. Arabian Oud Kalemat
-
-
-36. Armaf Club de Nuit Intense
-
-
-37. Armaf Milestone
-
-
-38. Armaf Le Parfait
-
-
-39. Rave Now Intense
-
-
-40. Fragrance World Aventos
-
-
-41. Smart Collection Perfume Oils
-
-
-42. Oil Perfumes (non-alcoholic)
-
-
-43. YSL Libre
-
-
-44. Initio Oud for Greatness
-
-
-45. Bvlgari Omnia
-
-
-46. Chanel Chance
-
-
-47. Hugo Boss Bottled
-
-
-48. CK One
-
-
-49. Elizabeth Arden 5th Avenue
-
-
-50. Escada Especially Escada
-
-
-Alright — sounds like you want a Classi Kleen website that’s part online store, part service booking hub, all tied neatly into WhatsApp for sales conversion and email for feedback.
-Here’s a clear, step-by-step plan so we don’t miss anything:
-
+- [ ] Company story
+- [ ] Mission & values
+- [ ] Service areas
+- [ ] Team information
+- [ ] Customer testimonials
 
 ---
 
-1️⃣ Core Features
+## 🔧 Technical Implementation
 
-A. Cosmetics & Health Products Shop
+### Database Schema
 
-Product catalog with:
+**Priority: Critical** - Foundation
 
-Image
+#### Products Table
 
-Name
+- [ ] Product ID
+- [ ] Name
+- [ ] Description
+- [ ] Price
+- [ ] Category
+- [ ] Subcategory
+- [ ] Image URL
+- [ ] Stock status
+- [ ] Created/Updated timestamps
 
-Description
+#### Orders Table
 
-Price (easy to update anytime)
+- [ ] Order ID
+- [ ] Customer info
+- [ ] Product list
+- [ ] Total amount
+- [ ] WhatsApp conversation ID
+- [ ] Status
+- [ ] Created timestamp
 
+#### Services Table
 
-Add to Cart option
+- [ ] Service ID
+- [ ] Service type
+- [ ] Description
+- [ ] Base price
+- [ ] Service areas
 
-Checkout → WhatsApp:
+#### Bookings Table
 
-When a customer clicks checkout, cart details are auto-sent to your WhatsApp number (with product list, quantities, and total).
+- [ ] Booking ID
+- [ ] Customer info
+- [ ] Service type
+- [ ] Booking details
+- [ ] Status
+- [ ] Created timestamp
 
-This avoids online payment integration and keeps sales personal.
+### WhatsApp Integration
 
+**Priority: Critical** - Sales conversion
 
+#### Cart to WhatsApp Flow
 
+- [ ] Compile cart items
+- [ ] Calculate total
+- [ ] Format message
+- [ ] Open WhatsApp with pre-filled message
+- [ ] Include delivery address field
 
----
+#### Message Format
 
-B. Services Section
+```
+Hello Classi Kleen! I'd like to place an order:
 
-Laundry Pickup (Lekki)
-
-Booking form (Name, Address, Pickup Date/Time, Number of Items).
-
-Option to select Urgent Service or Regular Service.
-
-
-Home Services
-
-Barbing
-
-House/Apartment Cleaning
-
-Booking form with service type, preferred date/time, and contact details.
-
-
-
----
-
-C. Client Feedback & Enquiries
-
-Contact form for:
-
-Name
-
-Email
-
-Message
-
-
-Submissions go directly to your email.
-
-Could also include a WhatsApp chat button for quick messages.
-
-
-
----
-
-2️⃣ Tech Stack Recommendation
-
-Since you want a simple but flexible setup:
-
-Option 1 — WordPress + WooCommerce + WhatsApp Integration
-
-WooCommerce handles products & cart.
-
-Plugin for “WhatsApp checkout” (e.g., Cart to WhatsApp for WooCommerce).
-
-Booking form plugin (Amelia or WPForms).
-
-Email integration via form plugin.
-
-
-Option 2 — Shopify + WhatsApp App
-
-Easier for e-commerce, but more monthly costs.
-
-WhatsApp checkout via an app like WhatsApp Chat + Cart Transfer.
-
-Services can be listed as “products” or on a separate page.
-
-
-Option 3 — No-Code Website Builder (Wix or Elementor Cloud)
-
-Drag-and-drop, fast setup.
-
-Wix has built-in WhatsApp chat button + product catalog.
-
-Easy to update prices anytime.
-
-
-
----
-
-3️⃣ WhatsApp Checkout Flow
-
-When a customer clicks Checkout:
-
-Cart details are compiled automatically:
-
-Name: [Customer]
 Items:
 - Product A (2 pcs) - ₦4,000
 - Product B (1 pcs) - ₦3,500
-  Total: ₦7,500
 
-This message opens directly in WhatsApp chat with your business number.
+Total: ₦7,500
 
+Delivery Address: ____________
 
+Thank you!
+```
 
----
+### Admin Dashboard
 
-4️⃣ Pages Structure
+**Priority: High** - Business management
 
-1. Home — brief intro, featured products, service highlights.
+#### Features
 
+- [ ] Product management (CRUD)
+- [ ] Price updates
+- [ ] Order tracking
+- [ ] Booking management
+- [ ] Inventory tracking
+- [ ] Sales analytics
 
-2. Shop — cosmetics & health products.
+#### Price Update Workflow
 
-
-3. Services — laundry, home cleaning, barbing.
-
-
-4. Bookings — forms for each service.
-
-
-5. Contact Us — email form + WhatsApp chat link.
-
-
-6. About Us — brand story, mission, location.
-
-
-
-
----
-
-5️⃣ Price Update Management
-
-Use backend dashboard to edit prices anytime (takes less than 1 min per product).
-
-Optional: Show “Updated on [date]” to build trust.
-
-
+- [ ] Select product
+- [ ] Update price
+- [ ] Save changes
+- [ ] Update timestamp
+- [ ] Optional: Show "Updated on [date]"
 
 ---
 
-6️⃣ Marketing Add-ons
+## 📱 User Experience Features
 
-Floating WhatsApp chat icon on every page.
+### Shopping Experience
 
-Email capture form for promotions.
+- [ ] Easy product browsing
+- [ ] Quick add to cart
+- [ ] Cart persistence
+- [ ] WhatsApp checkout
+- [ ] Order confirmation
 
-Google My Business listing for local discovery.
+### Service Booking
 
-Instagram shop integration for cosmetics.
+- [ ] Simple booking forms
+- [ ] Date/time selection
+- [ ] Service customization
+- [ ] Booking confirmation
+- [ ] WhatsApp follow-up
 
+### Mobile Optimization
 
-
----
-
-If you want, I can draft a ready-to-use site layout with WhatsApp checkout already integrated and all your services/products sections structured. That way you just plug in your products, and it’s live in days instead of weeks.
-
-Do you want me to design that ready-to-deploy layout for Classi Kleen?
-
-
-
-Perfect — I’ll outline the ready-to-deploy Classi Kleen site layout so that when we hand it to a developer (or use WordPress/Wix), it’s a plug-and-play build with WhatsApp checkout and service booking.
-
-
----
-
-Classi Kleen Website Layout
-
-1️⃣ Home Page
-
-Sections:
-
-1. Hero Banner
-
-Big image or short video (laundry pickup, cleaning, cosmetics showcase).
-
-Headline:
-
-> "From Fresh Laundry to Flawless Skin — Classi Kleen Delivers"
-
-
-
-CTA Buttons:
-
-Shop Products (scrolls to shop)
-
-Book a Service (scrolls to booking form)
-
-
-
-
-2. Quick Shop Highlights
-
-4-6 featured cosmetics/health products with “Add to Cart” buttons.
-
-
-
-3. Service Highlights
-
-Laundry Pickup (Lekki) — image + “Book Now”
-
-Home/Apartment Cleaning — image + “Book Now”
-
-Barbing Services — image + “Book Now”
-
-
-
-4. Why Choose Us
-
-Icons for Fast Delivery, Affordable Prices, Trusted Service, Easy WhatsApp Orders.
-
-
-
-5. Testimonials
-
-Short quotes from happy customers.
-
-
-
-6. WhatsApp Floating Button
-
-Appears on all pages. Click → Opens WhatsApp chat.
-
-
-
-
+- [ ] Responsive design
+- [ ] Touch-friendly interface
+- [ ] Fast loading
+- [ ] Easy navigation
+- [ ] WhatsApp integration
 
 ---
 
-2️⃣ Shop Page
+## 🚀 Development Phases
 
-Grid layout: Product image, name, price, “Add to Cart”.
+### Phase 1: Foundation (Week 1-2)
 
-When “Checkout” is clicked:
+- [ ] Project setup
+- [ ] Database schema
+- [ ] Basic UI components
+- [ ] Product catalog structure
+- [ ] Shopping cart functionality
 
-Redirect to WhatsApp with cart details in this format:
+### Phase 2: Core Features (Week 3-4)
 
-Name: [Customer]
-Items:
-- Product A (2 pcs) - ₦4,000
-- Product B (1 pcs) - ₦3,500
-  Total: ₦7,500
-  Delivery Address: ____________
+- [ ] WhatsApp checkout integration
+- [ ] Service booking forms
+- [ ] Admin dashboard
+- [ ] Product management
+- [ ] Basic styling
 
+### Phase 3: Content & Polish (Week 5-6)
 
-Admin backend to:
+- [ ] Product data entry
+- [ ] Service content
+- [ ] Contact forms
+- [ ] Mobile optimization
+- [ ] Testing & bug fixes
 
-Add/remove products.
+### Phase 4: Launch Preparation (Week 7-8)
 
-Change prices easily.
-
-
-
-
----
-
-3️⃣ Services Page
-
-A. Laundry Pickup (Lekki)
-
-Booking Form:
-
-Name, Address, Phone, Pickup Date/Time, Service Type (Regular/Urgent), Special Instructions.
-
-On submit → Email + WhatsApp message to business.
-
-
-
-B. Home/Apartment Cleaning
-
-Booking form similar to laundry but with “Size of Space” and “Preferred Date/Time”.
-
-
-C. Home Barbing
-
-Booking form with “Number of People” + “Preferred Date/Time”.
-
-
+- [ ] Final testing
+- [ ] Performance optimization
+- [ ] SEO setup
+- [ ] Analytics integration
+- [ ] Launch deployment
 
 ---
 
-4️⃣ Contact Page
+## 📊 Success Metrics
 
-Email Form for feedback & enquiries.
+### E-commerce Metrics
 
-WhatsApp button with pre-filled text:
+- [ ] Product page views
+- [ ] Add to cart rate
+- [ ] WhatsApp checkout rate
+- [ ] Average order value
+- [ ] Customer retention
 
-> “Hello Classi Kleen, I’d like to make an enquiry.”
+### Service Metrics
 
+- [ ] Booking form submissions
+- [ ] Service conversion rate
+- [ ] Customer satisfaction
+- [ ] Repeat bookings
 
+### Technical Metrics
 
-
-
----
-
-5️⃣ Backend Admin Tools
-
-WordPress/WooCommerce or Wix Editor.
-
-Price updates in under 1 minute.
-
-Booking entries stored in dashboard + sent via email.
-
-
-
----
-
-6️⃣ Recommended Setup for WhatsApp Checkout
-
-If WordPress:
-
-WooCommerce + “Cart to WhatsApp for WooCommerce” plugin.
-
-WPForms for booking forms.
-
-Elementor for drag-and-drop styling.
-
-
-If Wix:
-
-Wix Stores for products.
-
-WhatsApp Business integration via Wix App Market.
-
-Wix Forms for service bookings.
-
-
+- [ ] Page load speed
+- [ ] Mobile usability
+- [ ] WhatsApp integration success
+- [ ] Admin dashboard efficiency
 
 ---
 
-✅ Result:
+## 🎯 Next Steps
 
-Cosmetics & health product sales run entirely through WhatsApp checkout.
+1. **Immediate Actions**
 
-Services (laundry, cleaning, barbing) booked directly from the site.
+   - [ ] Review and approve this project plan
+   - [ ] Set up development environment
+   - [ ] Begin database schema design
+   - [ ] Start with core product catalog
 
-Price changes are easy for you to handle.
+2. **Content Preparation**
 
-Email feedback is captured, building client trust.
+   - [ ] Gather product images
+   - [ ] Write product descriptions
+   - [ ] Set initial pricing
+   - [ ] Define service areas
 
-
+3. **Business Setup**
+   - [ ] WhatsApp Business account
+   - [ ] Business email setup
+   - [ ] Payment tracking system
+   - [ ] Customer support workflow
 
 ---
 
-If you want, I can make a complete Classi Kleen mockup with the design, colors, and sections visually laid out so that a developer can just replicate it exactly.
-That way, you’ll see exactly how it will look before building.
+## 📝 Notes
 
-Do you want me to create that visual site mockup next?
+- **No Database Transactions**: Using Neon Postgres which doesn't support transactions
+- **WhatsApp-First**: All sales go through WhatsApp for personal touch
+- **Easy Price Updates**: Admin can update prices in under 1 minute
+- **Mobile-First**: Design optimized for mobile users
+- **Local Focus**: Services primarily in Lekki area
+- **Scalable**: Architecture supports future expansion
+
+---
+
+_This project plan transforms the chaotic client description into an actionable, organized development roadmap for the Classi Kleen website._
