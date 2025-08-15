@@ -118,9 +118,9 @@ export const Navbar01 = React.forwardRef<HTMLElement, Navbar01Props>(
       logoHref = "/",
       navigationLinks = defaultNavigationLinks,
       signInText = "Sign In",
-      signInHref = "#signin",
+      signInHref = "/sign-in",
       ctaText = "Get Started",
-      ctaHref = "#get-started",
+      ctaHref = "/sign-up",
       onSignInClick,
       onCtaClick,
       ...props

@@ -23,8 +23,10 @@ import {
   CheckCircle,
   Sparkles,
 } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 const Page = () => {
+  const router = useRouter();
   const staggerContainer = {
     animate: {
       transition: {
@@ -118,7 +120,14 @@ const Page = () => {
             linear-gradient(180deg, #f0fdfa 0%, #e0f7fa 100%);
         }
       `}</style>
-      <Navbar01 />
+      <Navbar01
+        onSignInClick={() => {
+          router.push("/sign-in");
+        }}
+        onCtaClick={() => {
+          router.push("/sign-up");
+        }}
+      />
       <div className="min-h-screen w-full relative overflow-hidden wave-bg">
         <motion.div
           variants={staggerContainer}

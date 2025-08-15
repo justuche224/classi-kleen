@@ -24,8 +24,10 @@ import { Parallax } from "react-parallax";
 
 import "@fontsource/playfair-display";
 import { Badge } from "@/components/ui/badge";
+import { useRouter } from "next/navigation";
 
 const Page = () => {
+  const router = useRouter();
   const staggerContainer = {
     animate: {
       transition: {
@@ -61,7 +63,14 @@ const Page = () => {
             linear-gradient(180deg, #f0fdfa 0%, #e0f7fa 100%);
         }
       `}</style>
-      <Navbar01 />
+      <Navbar01
+        onSignInClick={() => {
+          router.push("/sign-in");
+        }}
+        onCtaClick={() => {
+          router.push("/sign-up");
+        }}
+      />
       <div className="min-h-screen w-full relative overflow-hidden wave-bg custom-cursor pt-4">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex max-md:pt-26 flex-col-reverse lg:flex-row justify-center lg:justify-between items-center gap-12 lg:gap-16 min-h-svh py-16 lg:py-20">
