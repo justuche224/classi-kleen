@@ -1,11 +1,9 @@
-import React from 'react'
-import { Navbar01 } from '@/components/ui/shadcn-io/navbar-01';
+import React from "react";
 
-export default function PublicLayout({children}: { children: React.ReactNode }) {
-    return (
-        <div>
-            <Navbar01 />
-            {children}
-        </div>
-    )
+export default function PublicLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return <div>{children}</div>;
 }

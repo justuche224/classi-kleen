@@ -1,5 +1,6 @@
 "use client";
 
+import { Navbar01 } from "@/components/ui/shadcn-io/navbar-01";
 import { motion } from "framer-motion";
 import { FlipButton } from "@/components/ui/shadcn-io/flip-button";
 import Image from "next/image";
@@ -38,6 +39,7 @@ const Page = () => {
 
   return (
     <>
+      <Navbar01 />
       <div className="min-h-screen w-full relative overflow-hidden">
         <div
           className="absolute inset-0 -z-10"
